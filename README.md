@@ -2,7 +2,6 @@
 ### [View the live site](https://aerbnb.herokuapp.com/#/)
 **Aerbnb** is a single-page, full stack web application **(SPA)** inspired by Airbnb where users can view, book, and search for listings by location.
 
-It utilizes **Ruby on Rails** with a **PostgreSQL** database on the back-end, and **React.js** and **Redux** on the front-end. 
 
 ### Screenshots
 
@@ -132,8 +131,6 @@ The Rails backend API is connected to a React frontend to efficiently render to 
 Redux manages the front-end state of Aerbnb. When database information is retrieved, Redux state is updated first and re-renders the appropriate React components.
 
 ### Back-end
-#### Ruby on Rails
-Ruby on Rails is the back-end framework used to query the database.
 
 #### Database
 Aerbnb uses a PostgreSQL database to store its relational data.
